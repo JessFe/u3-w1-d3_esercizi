@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.form-control:focus,
+.form-control:active {
+  border: 1px solid #3ebb78;
+  box-shadow: 0 0 10px rgba(62, 187, 120, 0.7);
+}

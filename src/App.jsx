@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import MyNav from "./components/MyNav";
@@ -13,7 +12,6 @@ function App() {
       <MyNav />
       <Welcome />
       <BookList books={scifiBooks} />
-      {/* <AllTheBooks /> */}
       <MyFooter />
     </div>
   );
